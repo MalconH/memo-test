@@ -1,0 +1,22 @@
+{
+  "name": "memo-test",
+  "version": "1.0.0",
+  "description": "Juego de la memoria creado para r/argentina-programa",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MalconH/memo-test.git"
+  },
+  "author": "Malcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MalconH/memo-test/issues"
+  },
+  "homepage": "https://github.com/MalconH/memo-test#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2"
+  }
+}
