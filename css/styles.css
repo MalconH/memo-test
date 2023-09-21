@@ -1,0 +1,92 @@
+.full-height-row {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.carta {
+  height: 6rem;
+}
+
+.imagen {
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.aparecer {
+  animation: aparecer 0.5s ease forwards;
+}
+
+.desaparecer {
+  animation: desaparecer 0.5s ease forwards;
+}
+
+.carta {
+  animation: aparecer 0.5s ease forwards;
+}
+
+/* .emparejada {
+  opacity: 0;
+  transition: opacity ease 0.5s;
+}
+
+.imagen-1 {
+  animation: aparecer 0.5s ease forwards;
+  background: url(../img/imagen-1.jpg) no-repeat center/contain #fee6c3 !important;
+}
+
+.imagen-2 {
+  animation: aparecer 0.5s ease forwards;
+  background: url(../img/imagen-2.jpg) no-repeat center/contain #fee6c3 !important;
+}
+
+.imagen-3 {
+  animation: aparecer 0.5s ease forwards;
+  background: url(../img/imagen-3.jpg) no-repeat center/contain #fee6c3 !important;
+}
+
+.imagen-4 {
+  animation: aparecer 0.5s ease forwards;
+  background: url(../img/imagen-4.jpg) no-repeat center/contain #fee6c3 !important;
+}
+
+.imagen-5 {
+  animation: aparecer 0.5s ease forwards;
+  background: url(../img/imagen-5.jpg) no-repeat center/contain #fee6c3 !important;
+}
+
+.imagen-6 {
+  animation: aparecer 0.5s ease forwards;
+  background: url(../img/imagen-6.jpg) no-repeat center/contain #fee6c3 !important;
+}
+
+.imagen-7 {
+  animation: aparecer 0.5s ease forwards;
+  background: url(../img/imagen-7.jpg) no-repeat center/contain #fee6c3 !important;
+}
+
+.imagen-8 {
+  animation: aparecer 0.5s ease forwards;
+  background: url(../img/imagen-8.jpg) no-repeat center/contain #fee6c3 !important;
+} */
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes desaparecer {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}

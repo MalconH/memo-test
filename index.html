@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de la memoria</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="vh-100 d-flex flex-column">
+  <header class="shadow">
+    <div class="container-fluid">
+      <div class="row align-items-center justify-content-center  gx-4 gy-2 p-2">
+        <div class="col text-center">
+          Tiempo:
+          <span id="temporizador"></span>
+        </div>
+        <div class="col-sm-5">
+          <div class="d-grid">
+            <button class="btn btn-primary" type="button" id="iniciar-juego">Jugar</button>
+          </div>
+        </div>
+        <div class="col text-center">
+          Intentos:
+          <span id="intentos"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- Header end -->
+
+  <main class="justify-content-center flex-grow-1" style="position: relative;"> <!-- Main -->
+
+    <div class="container pt-4 text-center d-none aparecer" id="cartas">
+      <div class="row gx-3 mb-3">
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-1"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-2"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-3"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-4"></div>
+        </div>
+
+      </div>
+
+      <div class="row gx-3 mb-3">
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-5"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-6"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-7"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-8"></div>
+        </div>
+
+      </div>
+
+      <div class="row gx-3 mb-3">
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-9"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-10"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-11"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-12"></div>
+        </div>
+
+      </div>
+
+      <div class="row gx-3 mb-3">
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-13"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-14"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-15"></div>
+        </div>
+
+        <div class="col">
+          <div class="carta rounded text-white bg-primary" id="carta-16"></div>
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
