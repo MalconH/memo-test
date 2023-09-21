@@ -77,6 +77,9 @@ function reiniciarJuego() {
     });
     resetearCartasGeneradas();
     ocultarCartas();
+
+    document.querySelector("#intentos").textContent = "";
+
     const juegoCompletado = document.querySelector("#juego-completado");
     if (juegoCompletado) {
         juegoCompletado.remove();
